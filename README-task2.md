@@ -2,7 +2,11 @@
 Task given by Business on bot company
 
 Flow of the code:
-=> First the required packages are imported in the notebook.
+=>Imported libraries such as pandas to deal with data frames/datasets, re for regular expression, nltk is a natural language tool kit and from that, we have imported module – stopwords which are nothing but ‘dictionary’.
+=>And have checked for the top 5 values in the dataset using head()
+=>Further, I have performed some data visualizations using matplotlib and seaborn libraries which are really the best visualization libraries in Python. 
+=>Converted text into the matrix of tokens, we have to import the following library and perform code
+=>LabelEncoder is used here for transforming categorical values into numerical values.
 =>Then the provided data set is split into two categories:
               ->Train dataset
               -> Test dataset
